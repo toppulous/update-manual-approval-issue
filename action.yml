@@ -1,0 +1,24 @@
+name: Update Manual Approval Issue
+author: toppulous
+branding:
+  color: purple
+  icon: check-circle
+description: Updates (comments) on a manual approval issue with updated information
+inputs:
+  issue-number:
+    description: number of issue to update with change information
+    required: true
+  tag:
+    description: tag to indicate what new release/changes are available in this stage (github.sha is a good choice)
+    required: true
+  keyword:
+    description: Tag to indicate that this update is from automation
+    default: GITHUB_ACTIONS
+    required: false
+  github-token:
+    description: the github token used to create an authenticated client
+    default: ${{ github.token }}
+    required: false
+runs:
+  using: node12
+  main: index.js

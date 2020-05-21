@@ -1,0 +1,24 @@
+{
+  "name": "update-manual-approval-issue",
+  "version": "1.0.0",
+  "description": "GitHub action to update manual approval issue with new changes information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toppulous/update-manual-approval-issue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toppulous/update-manual-approval-issue/issues"
+  },
+  "homepage": "https://github.com/toppulous/update-manual-approval-issue#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0"
+  }
+}
