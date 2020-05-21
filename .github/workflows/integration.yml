@@ -8,11 +8,11 @@ jobs:
     steps:
       - name: Create issue
         id: issue1
-        uses: topping/create-manual-approval-issue@v1
+        uses: toppulous/create-manual-approval-issue@v1
         with:
           label: integration
       - name: update issue
-        uses: topping/update-manual-approval-issue@master
+        uses: toppulous/update-manual-approval-issue@master
         with:
           issue-number: ${{ steps.issue1.outputs.issue-number }}
           tag: ${{ github.sha }}
