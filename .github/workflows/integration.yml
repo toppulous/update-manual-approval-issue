@@ -16,4 +16,6 @@ jobs:
         with:
           issue-number: ${{ steps.issue1.outputs.issue-number }}
           tag: ${{ github.sha }}
+          additiona: |
+            some: additional fields
 

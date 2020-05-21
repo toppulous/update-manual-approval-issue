@@ -16,4 +16,6 @@ a good value for this
 ### keyword
 *Optional* this value will be prefixed to updates to the manual approval issue, to be used to
 provide context that this update is a part of the workflow
+### additional-info
+*Optional* any additional information that you may want to add to the update
 

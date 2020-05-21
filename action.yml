@@ -15,6 +15,10 @@ inputs:
     description: Tag to indicate that this update is from automation
     default: GITHUB_ACTIONS
     required: false
+  additional-info:
+    description: Any additional info to add to the update
+    default: ---
+    required: false
   github-token:
     description: the github token used to create an authenticated client
     default: ${{ github.token }}
