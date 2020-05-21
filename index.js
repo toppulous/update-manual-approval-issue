@@ -1,7 +1,7 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
 
-async funciton run() {
+async function run() {
   const issue_number = core.getInput('issue-number');
   const token = core.getInput('github-token');
   const tag = core.getInput('tag');
