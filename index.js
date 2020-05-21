@@ -9,7 +9,7 @@ async function run() {
 
   core.info(`Updating issue ${issue_number}...`);
 
-  const octokit = nw github.GitHub(token);
+  const octokit = new github.GitHub(token);
 
   octokit.issues.createComment({
     issue_number: issue_number,
