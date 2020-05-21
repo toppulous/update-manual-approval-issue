@@ -5,7 +5,7 @@ async function run() {
   const issue_number = core.getInput('issue-number');
   const token = core.getInput('github-token');
   const tag = core.getInput('tag');
-  const additional = cored.getInput('additional-info');
+  const additional = core.getInput('additional-info');
   const keyword = core.getInput('keyword');
 
   core.info(`Updating issue ${issue_number}...`);
