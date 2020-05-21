@@ -1,4 +1,5 @@
 # update-manual-approval-issue
+![.github/workflows/integration.yml](https://github.com/toppulous/update-manual-approval-issue/workflows/.github/workflows/integration.yml/badge.svg)
 GitHub action to update manual approval issue with new changes information
 
 This aciton is meant to be used in conjunction with toppulous/create-manual-approval-issue. Plug the
